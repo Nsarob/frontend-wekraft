@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.cardx{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    padding: 4rem 3rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   .text{
+    font-size: 2rem;
+    font-family: "Nunito", sans-serif;
+h1{
+    font-weight: 900;
+}
+p{
+    color: rgba(0, 0, 0, 0.74);
+}
+   }
+   .icons{
+    .icon{
+        font-size: 3rem;
+    }
+   }
+}
+
+.items{
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem 0;
+    .btn{
+        background-color: #fdc800;
+        font-size: 1.7rem;
+    }
+}
+.king{
+   
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    padding-top: 1rem;
+ .iconx{
+    font-size: 3rem;
+ }
+ .delete{
+    color: rgb(253, 57, 57);
+    cursor: pointer;
+ }
+ .update{
+    color: rgb(19, 126, 76);
+    cursor: pointer;
+ }
+}

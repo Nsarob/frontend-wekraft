@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.login-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 2;
+    flex-direction: column;
+
+ .fld{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 2;
+    flex-direction: column;
+    input{
+        padding: .8rem;
+    }
+    label{
+        font-size: 1.8rem;
+    }
+ }
+ form{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 2;
+    flex-direction: column;
+ }
+ .log{
+    width: 100%;
+    .log-btn{
+        background-color: rgb(50, 139, 241);
+        width: 100%;
+        font-size: 1.4rem;
+        color: #eee;
+    }
+ }
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2;
+    flex-direction: column;
+
+    .contact-us{
+        .field{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2;
+            flex-direction: column;
+
+            input{
+                padding: .8rem;
+                width: 100%;
+            }
+           label{
+            font-size: 1.5rem;
+           }
+        }
+        .log{
+            width: 100%;
+            padding: 2rem;
+            .log-btn{
+                background-color: rgb(50, 139, 241);
+                width: 100%;
+                font-size: 1.4rem;
+                color: #eee;
+            }
+         }
+
+    }
+}
+
+
+.form-containerx {
+    
+    padding: 2rem;
+    h1{
+        font-size:3rem;
+        text-transform: capitalize;
+        padding: 2rem 0;
+        font-family: "Nunito", sans-serif;
+    }
+ .form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+    .formx{
+        background-color: rgb(214, 216, 214);
+         padding: 2rem;
+         border-radius: 2rem;
+        width: 100%;
+p{
+color: rgba(0, 0, 0, 0.725);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .up{
+   color:  #454870;
+    font-size: 2rem;
+  }
+      
+  
+    }
+}

@@ -1,0 +1,42 @@
+[
+    {
+      "_id": "65168f4182ac6af88f963803",
+      "name": "english",
+      "description": "MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+      "dids":"MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+      "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+      "video": [
+        "https://images.pexels.com/photos/20463326/pexels-photo-20463326/free-photo-of-portrait-of-an-african-man-in-sunlight.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ]
+    },
+    {
+        "_id": "65168f4182ac6af88f963803",
+        "name": "ikinyarwanda",
+        "description": "MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+        "dids":"MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+        "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+        "video": [
+          "https://images.pexels.com/photos/20463326/pexels-photo-20463326/free-photo-of-portrait-of-an-african-man-in-sunlight.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ]
+      },
+      {
+        "_id": "65168f4182ac6af88f963803",
+        "name": "social studies",
+        "description": "MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+        "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+        "dids":"MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+        "video": [
+          "https://images.pexels.com/photos/20463326/pexels-photo-20463326/free-photo-of-portrait-of-an-african-man-in-sunlight.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ]
+      },
+      {
+        "_id": "65168f4182ac6af88f963803",
+        "name": "mathematics",
+        "description": "MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+        "dids":"MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+        "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+        "video": [
+          "https://images.pexels.com/photos/20463326/pexels-photo-20463326/free-photo-of-portrait-of-an-african-man-in-sunlight.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ]
+      }
+]

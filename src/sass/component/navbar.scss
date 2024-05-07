@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+nav{
+  font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.178);
+    position: sticky;
+    top: 0; 
+    width: 100%;
+    z-index: 99999;
+    
+
+  .navbar{
+ display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top: 0;
+padding: 1.5rem 3rem;
+
+.logo{
+    font-size: 2.8rem;
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    color: #252525;
+    width: 100px;
+    height: 70px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 3rem;
+    }
+}
+.navlink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+  }
+  .menu{
+    display: none;
+  }
+  @media screen and (max-width:900px) {
+    .navlink{
+        display: none;
+    }
+    .menu{
+        display: flex;
+      }
+    .openNav{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        list-style: none;
+        background-color: rgb(255, 255, 255);
+        left: 0;
+        top: 7.5rem;
+        transition: all .3s ease-out;
+      z-index: 9999;
+        width: 100%;
+        text-align: center;
+     padding: 2rem;
+        
+    
+    }
+  }
+.link{
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: #324d6b;
+    font-weight: 900;
+    text-transform: capitalize;
+    transition: all .3s;
+    &:hover{
+        color: #fdc800;
+    }
+}
+.btn{
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: rgb(3, 66, 66);
+    font-weight: 600;
+  text-transform: capitalize;
+}
+.in{
+    background-color: #00043b;
+    color: #fff;
+    padding: .4rem 2rem;
+    &:hover{
+        border:1.3px solid #454870;
+        color: #454870;
+        background: transparent;
+    }
+   }
+   .up{
+    border:1.3px solid #454870;
+    color: #454870;
+    padding: .4rem 2rem;
+
+    &:hover{
+        background-color: #00043b;
+        color: #fff;
+    }
+   }
+  }
+
+ 
+}

@@ -1,0 +1,84 @@
+[
+
+  {
+    "id":1,
+    "name": " POUL KAGAME",
+    "title": " POUL KAGAME",
+    "description":"works with micro and small entrepreneurs across Africa, including refugees. By offering business advisory, access to finance,"
+  
+  },
+  {
+    "id":2,
+    "name": " Nature flowers",
+    "title": "president of Uganda",
+    "description":" solutions are unleashed to solve African problems. We have provided business advisory and access to finance for thousands of entrepreneurs across East Africa. As the largest investor in refugee businesses, we have disbursed more than $13M in capital. This affordable finance for Inkomoko entrepreneurs"
+   
+  },
+  {
+    "id":3,
+    "name": " alexis kay",
+    "title": " autumnal-leaves",
+    "description":" capital. This affordable finance for Inkomoko entrepreneurs helps them grow their businesses, create jobs, and improve their livelihoods. As we look forward, Inkomoko is developing new ways to engage communities to thrive. Creating meaningful market linkages,"
+  
+  },
+
+  {
+    "id":4,
+    "name": " anould grey",
+    "title": " compress",
+    "description":" Deeply co-creating with communities and integrating human-centered design into our work for almost 3 decades in Rwanda, Alight understands the experiences of the displaced persons and seeks to deliver services worthy of their humanity."
+    
+  },
+  {
+    "id":5,
+    "name": "queen nessa",
+    "title": " woman-in-a-pink-dress",
+    "description":"expanding to secondary cities, and advocating for economic inclusion, Inkomoko has added these community-based approaches to our enterprise development work. By 2030, Inkomoko will be in 8 countries, serving more than half a million small businesses, creating a positive impact"
+ 
+  },
+  {
+    "id":6,
+    "name": " Poul kenzie",
+    "title": " balloon-in-air",
+    "description":"UNCDF has been present in Rwanda since 1981, promoting community empowerment through infrastructure development and service delivery. Today, UNCDF offers “last mile” finance models that unlock public and private resources, especially at the domestic level, to reduce poverty and support local"
+  
+  },
+  {
+    "id":7,
+    "name": "kenny's gram",
+    "title": " african-man-in-sunlight",
+    "description":"Economies practice, UNCDF partnered with Comic Relief and Jersey Overseas Aid to launch the ‘Rwanda: Expanding Financial Access & Digital and Financial Literacy’ (REFAD) programme in 2019 to expand access to finance and improve digital and"
+   
+ 
+  },
+  {
+    "id":8,
+    "name": "arabics",
+    "title": " best photo shoot",
+    "description":" financial capability for vulnerable populations. The REFAD Programme has made significant strides in catalyzing Rwanda's digital finance ecosystem to reach digitally and financially underserved target populations such as refugees, youth, and women, as indicated in a case study publication released in",
+    "newsImage": [
+      "https://media.licdn.com/dms/image/C5603AQFweeI343X56g/profile-displayphoto-shrink_800_800/0/1517827050401?e=2147483647&v=beta&t=ajMR2hJZY68Sbv_MkVZ5UdHtviwfLvi6U-grQ-NcJwQ"
+    ]
+    ,
+    "smallImage":[
+      "https://images.pexels.com/photos/20442701/pexels-photo-20442701/free-photo-of-selective-focus-photo-of-autumnal-leaves.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ]
+  },
+  {
+    "id":9,
+    "name": " POUL KAGAME",
+    "title": " POUL KAGAME",
+    "description":"2022. Through a multi-stakeholder approach, UNCDF will facilitate the provision of technical assistance and capacity building to foster innovation and develop solutions to shape the future of the fintech landscape in Rwanda."
+  },
+  {
+    "id":10,
+    "name": " rolando spinner",
+    "title": " ukrainian-girl",
+    "description":"is the one and only agency that works in all refugee camps in Rwanda, serving mostly Congolese and Burundian refugees. Alight exists to walk alongside those who – by sheer circumstance – find themselves on the long and arduous journey"
+   
+  }
+
+
+
+
+]

@@ -1,0 +1,46 @@
+[
+    {
+      "_id": "65168f4182ac6af88f963803",
+      "name": "franklin",
+      "description": "MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+      "location":"kigali,Rwanda",
+      "teacher":"proffessor alawn",
+      "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+      "newsImage": [
+        "https://images.pexels.com/photos/20463326/pexels-photo-20463326/free-photo-of-portrait-of-an-african-man-in-sunlight.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ]
+    },
+    {
+        "_id": "65168f4182ac6af88f963803",
+        "name": "franklin",
+        "description": "MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+        "location":"kigali,Rwanda",
+        "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+        "teacher":"proffessor jazzy",
+        "newsImage": [
+          "https://images.pexels.com/photos/20220617/pexels-photo-20220617/free-photo-of-a-woman-with-an-afro-wearing-a-leather-jacket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ]
+      },
+      {
+        "_id": "65168f4182ac6af88f963803",
+        "name": "franklin",
+        "description": "MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+        "location":"kigali,Rwanda",
+        "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+        "teacher":"proffessor mr skillz",
+        "newsImage": [
+          "https://images.pexels.com/photos/20286004/pexels-photo-20286004/free-photo-of-once-upon-a-time.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ]
+      },
+      {
+        "_id": "65168f4182ac6af88f963803",
+        "name": "franklin",
+        "description": "MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+        "location":"kigali,Rwanda",
+        "teacher":"proffessor luke",
+        "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+        "newsImage": [
+          "https://images.pexels.com/photos/3990502/pexels-photo-3990502.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ]
+      }
+]

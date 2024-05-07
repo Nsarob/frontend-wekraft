@@ -1,0 +1,46 @@
+[
+    {
+      "_id": "65168f4182ac6af88f963803",
+      "name": "Jane Mpiganzima, Parent",
+      "description": "MasterKraft is a game-changer for kids. Excellent instructors, engaging courses, and 'The Box' keeps them excited to learn!",
+      "location":"kigali,Rwanda",
+      "teacher":"proffessor alawn",
+      "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+      "newsImage": [
+        "https://images.pexels.com/photos/20463326/pexels-photo-20463326/free-photo-of-portrait-of-an-african-man-in-sunlight.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ]
+    },
+    {
+        "_id": "65168f4182ac6af88f963803",
+        "name": "Stewart Kabanda, Parent",
+        "description": "Our child's journey with MasterKraft has been incredible. They love the courses and projects. We're impressed with their progress!",
+        "location":"kigali,Rremera",
+        "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+        "teacher":"proffessor jazzy",
+        "newsImage": [
+          "https://images.pexels.com/photos/20220617/pexels-photo-20220617/free-photo-of-a-woman-with-an-afro-wearing-a-leather-jacket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ]
+      },
+      {
+        "_id": "65168f4182ac6af88f963803",
+        "name": "Stalon Irakiza, Parent",
+        "description": "MasterKraft exceeded our expectations. The courses are fantastic, and 'The Box' adds a fun, hands-on element. Highly recommended!",
+        "location":"Nyagatare city, NY",
+        "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+        "teacher":"proffessor mr skillz",
+        "newsImage": [
+          "https://images.pexels.com/photos/20286004/pexels-photo-20286004/free-photo-of-once-upon-a-time.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        ]
+      },
+      {
+        "_id": "65168f4182ac6af88f963803",
+        "name": "Stalon Irakiza, Parent",
+        "description": "We're thrilled with MasterKraft. Our child is thriving, and 'The Box' brings learning to life with hands-on projects. 5 stars!",
+        "location":"Nyanza city, NY",
+        "teacher":"proffessor luke",
+        "youtube":"https://www.youtube.com/watch?v=O4ybhvtUbCE",
+        "newsImage": [
+          "https://images.pexels.com/photos/3990502/pexels-photo-3990502.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ]
+      }
+]

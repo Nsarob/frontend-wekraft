@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.contacts{
+    background-color: #f0f4f9;
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 3rem;
+    
+    .contact-left{
+        .contact-head{
+            font-size: 2rem;
+            width: 80%;
+            margin: 0 auto;
+            padding:  0 0 2rem;
+            h1{
+                font-weight: 900;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        }
+        .bottom{
+            font-size: 2rem;
+            width: 80%;
+            margin: 0 auto;
+            line-height: 3rem;
+            display: flex;
+            flex-direction: column;
+            h2{
+                color: #fdc800;
+                padding: 2rem 0;
+                font-size: 3rem;
+            }
+            .bold{
+                display: flex;
+                flex-direction: column;
+                color: #0e5aa4;
+                padding-top: 1rem;
+            }
+        }
+    }
+    .contact-right{
+        // background-color: green;
+        width: 100%;
+        .field{
+            font-size: 3rem;
+           padding: 1rem;
+        }
+        label{
+            font-size: 1.8rem;
+        }
+        input{
+            font-size: 2rem;
+        }
+        .select{
+            width: 40%;
+            border: none;
+            background:transparent;
+            border-bottom: 2px solid black;
+            padding: 1rem 0 2rem;
+        }
+        .sample{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .message{
+            width: 80%;
+        }
+        h3{
+            text-align: center;
+            padding-bottom:2rem ;
+            font-weight: bold;
+            text-transform: capitalize;
+            font-size: 2rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+}
+@media screen and (max-width:960px) {
+    .contacts{
+        flex-direction: column;
+        .contact-right{
+            .sample{
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+
+// -------message-displayed------------------
+
+.message-cont{
+   
+    gap: 3rem;
+    
+    padding: 3rem;
+   
+    
+}
+.messagex{
+    padding: 1rem;
+background-color: rgba(0, 0, 0, 0.76);
+line-height: 3rem;
+font-family: "Nunito", sans-serif;
+color: #d5dae4;
+border-radius: 1rem;
+width: 80%;
+
+.delete{
+    color: red;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+     display: flex;
+     gap: 1rem;
+    span{
+        text-transform: capitalize;
+    }
+}
+p{
+    font-size: 2rem;
+    color: #fdc800;
+}
+}
+
+// ---------------contactPage-------------------
+.contactPage-container{
+    background: #002147;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    gap: 4rem;
+    h1{
+        color:  #fdc800;
+        font-size: 3rem;
+        @media(max-width:640px){
+            font-size: 2.5rem;
+        }
+        @media(max-width:500px){
+            font-size: 2rem;
+        }
+
+    }
+    .contactPage-content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        @media(max-width:560px){
+            gap: .6rem;
+         }
+         @media(max-width:500px){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+         }
+        .content-first{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: .3rem;
+            width: 200px;
+            height: auto;
+            transition: .4s;
+            .icon{
+                color: rgb(255, 255, 255);
+                font-size: 3rem;
+            }
+
+            &:hover{
+                cursor: pointer;
+            }
+            @media(max-width:640px){
+               width: 100%;
+            }
+            i{
+                padding: 1.3rem;
+                background:#FFF;
+                border-radius: 50%;
+                color:#002147;
+                font-size: 2rem;
+                @media(max-width:640px){
+                    font-size: 1.6rem;
+                    padding: 1rem;
+                }
+            }
+            h2{
+                font-size: 1.8rem;
+                color: #FFF;
+                @media(max-width:640px){
+                    font-size: 1.6rem;
+                }
+            }
+            p{
+                font-size: 1.4rem;
+                color: #FFF;
+                @media(max-width:640px){
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}

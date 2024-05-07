@@ -1,0 +1,278 @@
+.home-container{
+    width: 100%;
+    height: auto;
+    // background: rgba(120, 201, 207, 0.867);
+    padding: 0 3rem;
+    @media(max-width:300px){
+        padding: 0 1rem;
+    }
+    @media(max-width:200px){
+        padding: 0 .4rem;
+    }
+    .home{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+        @media(max-width:761px){
+            width: 100%;
+            height: auto;
+            display: flex;
+        }
+        @media(max-width:600px){
+            position: relative;
+            height: 330px;;
+        }
+        .home-text{
+            width: auto;
+            height: auto;
+            display: flex;
+            padding: 3rem 0;
+            flex-direction: column;
+            gap: 0;
+            z-index: 999;
+            @media(max-width:761px){
+                width: 100%;
+                height: auto;
+            }
+            @media(max-width:600px){
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            @media(max-width:300px){
+                padding:1rem 0 0 0;
+            }
+            @media(max-width:125px){
+                display: none;
+            }
+            .p-one{
+                font-size: 2rem;
+                color:#002147 ;
+                @media(max-width:826px){
+                    font-size: 1.8rem;
+                }
+                @media(max-width:316px){
+                    font-size: 1.4rem;
+                }
+                @media(max-width:272px){
+                    font-size: 1.2rem;
+                }
+            }
+            .p-two{
+                font-size: 5rem;
+                font-weight: 100;
+                color: #002147;
+                @media(max-width:1083px){
+                    font-size: 3rem;
+                }
+                @media(max-width:826px){
+                    font-size: 2.5rem;
+                }
+                @media(max-width:600px){
+                    font-weight: 200;
+                }
+                @media(max-width:382px){
+                    font-size: 2rem;
+                }
+                @media(max-width:316px){
+                    font-size: 1.7rem;
+                }
+                @media(max-width:272px){
+                    font-size: 1.5rem;
+                }
+                span{
+                    font-weight: 800;
+                    color: #fdc800;
+                }
+            }
+            .p-three{
+                font-size: 5rem;
+                font-weight: 100;
+                color: #002147;
+                @media(max-width:1083px){
+                    font-size: 3rem;
+                }
+                @media(max-width:826px){
+                    font-size: 2.5rem;
+                }
+                @media(max-width:600px){
+                    font-weight: 200;
+                }
+                @media(max-width:382px){
+                    font-size: 2rem;
+                }
+                @media(max-width:316px){
+                    font-size: 1.7rem;
+                }
+                @media(max-width:272px){
+                    font-size: 1.5rem;
+                }
+                span{
+                    font-weight: 800;
+                    color: #002147;
+                }
+            }
+            .p-four{
+                font-size: 5rem;
+                font-weight: 100;
+                color: #002147;
+                @media(max-width:1083px){
+                    font-size: 3rem;
+                }
+                @media(max-width:826px){
+                    font-size: 2.5rem;
+                }
+                @media(max-width:600px){
+                    font-weight: 200;
+                }
+                @media(max-width:382px){
+                    font-size: 2rem;
+                }
+                @media(max-width:316px){
+                    font-size: 1.7rem;
+                }
+                @media(max-width:272px){
+                    font-size: 1.5rem;
+                }
+            }
+            .p-five{
+                font-size: 5rem;
+                font-weight: 800;
+                color: #fdc800;
+                @media(max-width:1083px){
+                    font-size: 3rem;
+                }
+                @media(max-width:826px){
+                    font-size: 2.5rem;
+                }
+                @media(max-width:382px){
+                    font-size: 2rem;
+                }
+                @media(max-width:316px){
+                    font-size: 1.7rem;
+                }
+                @media(max-width:272px){
+                    font-size: 1.5rem;
+                }
+                span{
+                    color: #002147;
+                }
+            }
+            .btn{
+                a{
+                    text-decoration: none;
+                    padding: 2rem 4rem;
+                    background: #00043b;
+                    font-size: 2rem;
+                    border-radius: 5px;
+                    color: #fdc800;
+                    font-weight: 500;
+                    transition: .5s;
+                    &:hover{
+                        background: #cea202;
+                        border: 3px solid #002147;
+                        color:#002147;
+                        font-weight: 600;
+                    }
+                    @media(max-width:1083px){
+                        padding: 1.8rem 3rem;
+                        font-size: 1.8rem;
+                    }
+                    @media(max-width:382px){
+                        padding: 1.5rem 2.5rem;
+                        font-size: 1.6rem;
+                    }
+                    @media(max-width:316px){
+                        padding: 1.3rem 2.3rem;
+                        font-size: 1.3rem;
+                    }
+                    @media(max-width:236px){
+                        padding: 1.1rem 2rem;
+                        font-size: 1rem;
+                    }
+                    @media(max-width:204px){
+                        padding: 1.1rem 1.5rem;
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+        .home-image{
+            height: auto;
+            display: flex;
+            justify-content: right;
+            align-items: flex-end;
+            position: relative;
+            @media(max-width:600px){
+            display: flex;
+            justify-content: center;
+            align-items:flex-end;
+            width: 100%;
+            height: auto;
+        }
+        @media(max-width:600px){
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+        .image{
+            @media(max-width:682px){
+                width: 270px;
+            }
+        }
+        .smiley{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 3rem;
+            left: 0;
+            @media(max-width:600px){
+                display: none;
+            }
+        }
+        .bike{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 10rem;
+            right: 0;
+            @media(max-width:600px){
+                display: none;
+            }
+        }
+        .hand{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 3rem;
+            right: 5rem;
+            @media(max-width:600px){
+                display: none;
+            }
+        }
+        .valentine{
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            top: 10rem;
+            left: 0rem;
+            @media(max-width:600px){
+                display: none;
+            }
+        }
+        @media(max-width:761px){
+            width: 300px;
+            height: auto;
+        }
+        @media(max-width:682px){
+            width: 220px;
+        }
+        @media(max-width:600px){
+            width: 100%;
+            height: auto;
+        }
+        }
+    }
+}
