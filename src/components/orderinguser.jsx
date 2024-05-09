@@ -21,7 +21,7 @@ export default function OrderUser() {
 
     const fetchData = async () => {
         try {
-            const response = await fetch(`https://masterkraft-bn.onrender.com/API/product/get`);
+            const response = await fetch(`https://wekraft-c156ff639ea6.herokuapp.com/API/product/get`);
             if (!response.ok) {
                 throw new Error('Failed to fetch products');
             }
@@ -44,7 +44,7 @@ export default function OrderUser() {
     const handleSubmit = async () => {
         try {
             const token = localStorage.getItem("token");
-            const response = await fetch(`https://masterkraft-bn.onrender.com/API/order/${Params}`, {
+            const response = await fetch(`https://wekraft-c156ff639ea6.herokuapp.com/API/order/${Params}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

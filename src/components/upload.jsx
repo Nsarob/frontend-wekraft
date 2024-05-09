@@ -27,7 +27,7 @@ const UploadVideo = () => {
     formData.append('videoDescription', upload.videoDescription);
     formData.append('youtubeLink', upload.youtubeLink);
 
-    fetch('https://masterkraft-bn.onrender.com/API/video/post', {
+    fetch('https://wekraft-c156ff639ea6.herokuapp.com/API/video/post', {
   method: 'POST',
   headers: {
     'auth-token': token,

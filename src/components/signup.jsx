@@ -33,7 +33,7 @@ const SignUp = () => {
 }
   const onFinish = async(values) => {
     try {
-      const api = "https://masterkraft-bn.onrender.com/API/user/signup";
+      const api = "https://wekraft-c156ff639ea6.herokuapp.com/API/user/signup";
       const response = await axios.post(api, {
         firstname: formData.firstname,
         lastname: formData.lastname,

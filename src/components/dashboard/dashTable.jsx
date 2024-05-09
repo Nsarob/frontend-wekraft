@@ -44,7 +44,7 @@ export default function DashTables() {
   const handleDeleted = async (itemsId) => {
     try {
       const token = localStorage.getItem('token')
-      const response = await fetch(`https://masterkraft-bn.onrender.com/API/product/delete/${itemsId}`,{
+      const response = await fetch(`https://wekraft-c156ff639ea6.herokuapp.com/API/product/delete/${itemsId}`,{
         method:'DELETE',
         headers :{
           'Content-Type': 'application/json',
@@ -68,7 +68,7 @@ if(deleted){
 
   useEffect(()=>{
     const fetchData = async () =>{
-      const response = await axios.get(`https://masterkraft-bn.onrender.com/API/product/get`)
+      const response = await axios.get(`https://wekraft-c156ff639ea6.herokuapp.com/API/product/get`)
       setProduct(response.data)
     };
     fetchData([])

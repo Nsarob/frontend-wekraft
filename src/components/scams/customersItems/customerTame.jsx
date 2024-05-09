@@ -41,7 +41,7 @@ export default function CustomerTables() {
   const handleDeleted = async (itemsId) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await fetch(`https://masterkraft-bn.onrender.com/API/user/delete/${itemsId}`, {
+        const response = await fetch(`https://wekraft-c156ff639ea6.herokuapp.com/API/user/delete/${itemsId}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
@@ -74,7 +74,7 @@ export default function CustomerTables() {
     const fetchDatas = async () =>{
      try {
       const token = localStorage.getItem('token')
-       const response = await axios.get(`https://masterkraft-bn.onrender.com/API/user/get`,{
+       const response = await axios.get(`https://wekraft-c156ff639ea6.herokuapp.com/API/user/get`,{
      headers: {
       'auth-token':token,
       'Content-Type': 'application/json',

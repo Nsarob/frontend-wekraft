@@ -32,7 +32,7 @@ const Contacts = () => {
 
   const handleSubmit = async () => {
     try {
-      const api = "https://masterkraft-bn.onrender.com/API/contact/post";
+      const api = "https://wekraft-c156ff639ea6.herokuapp.com/API/contact/post";
       const response = await axios.post(api, formData, {
         headers: {
           'Content-Type': 'application/json'

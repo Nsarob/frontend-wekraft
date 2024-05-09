@@ -42,7 +42,7 @@ export default function ProductTables() {
 
   useEffect(()=>{
     const fetchProduct = async ()=>{
-       const response = await axios.get(`https://masterkraft-bn.onrender.com/API/product/get`)
+       const response = await axios.get(`https://wekraft-c156ff639ea6.herokuapp.com/API/product/get`)
        setProduct(response.data)
     };
     fetchProduct([])

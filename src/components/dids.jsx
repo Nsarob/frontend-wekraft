@@ -11,7 +11,7 @@ function Display() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://masterkraft-bn.onrender.com/API/didyou/get');
+                const response = await fetch('https://wekraft-c156ff639ea6.herokuapp.com/API/didyou/get');
                 if (!response.ok) {
                     throw new Error('Failed to fetch data');
                 }

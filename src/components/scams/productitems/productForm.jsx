@@ -40,7 +40,7 @@ const token = localStorage.getItem('token')
     formData.append('serialNumber', upload.serialNumber);
     formData.append('productPrice', upload.productPrice);
 
-    fetch('https://masterkraft-bn.onrender.com/API/product/post', {
+    fetch('https://wekraft-c156ff639ea6.herokuapp.com/API/product/post', {
       method: 'POST',
       headers: {
         'auth-token': token,

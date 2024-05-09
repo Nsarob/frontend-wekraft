@@ -12,7 +12,7 @@ function Email() {
     const handleDeleted = async (itemsId) => {
         try {
             const token = localStorage.getItem('token');
-            const response = await axios.delete(`https://masterkraft-bn.onrender.com/API/contact/delete/${itemsId}`, {
+            const response = await axios.delete(`https://wekraft-c156ff639ea6.herokuapp.com/API/contact/delete/${itemsId}`, {
                 headers: {
                     'Content-Type': 'application/json',
                     'auth-token': token
@@ -49,7 +49,7 @@ function Email() {
         const Params=window.location.href.split("?id=")[1]
         console.log(Params)
         try {
-            await axios.post(`https://masterkraft-bn.onrender.com/API/reply/${Params}`, {
+            await axios.post(`https://wekraft-c156ff639ea6.herokuapp.com/API/reply/${Params}`, {
                 recipientEmail: emailToReply,
                 replyMessage
             });
@@ -66,7 +66,7 @@ function Email() {
         const fetchMessage = async () => {
             try {
                 const token = localStorage.getItem('token');
-                const response = await axios.get('https://masterkraft-bn.onrender.com/API/contact/get', {
+                const response = await axios.get('https://wekraft-c156ff639ea6.herokuapp.com/API/contact/get', {
                     headers: {
                         'auth-token':token,
                         'Content-Type': 'application/json',

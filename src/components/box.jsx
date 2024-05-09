@@ -11,7 +11,7 @@ function TheBox(){
     useEffect(()=>{
         const fetchData = async () =>{
           try {
-            const response = await axios.get('https://masterkraft-bn.onrender.com/API/product/get')
+            const response = await axios.get('https://wekraft-c156ff639ea6.herokuapp.com/API/product/get')
             setProduct(response.data)
           } catch (error) {
             console.log('error',error)

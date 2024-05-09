@@ -36,7 +36,7 @@ const UploadTearm = () => {
     formData.append('personName', upload.personName);
     formData.append('personWork', upload.personWork);
 
-    fetch('https://masterkraft-bn.onrender.com/API/team', {
+    fetch('https://wekraft-c156ff639ea6.herokuapp.com/API/team', {
       method: 'POST',
       body: formData,
     })

@@ -41,7 +41,7 @@ export default function VideoTables() {
   const handleDeleted = async (itemsId) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await fetch(`https://masterkraft-bn.onrender.com/API/video/delete/${itemsId}`, {
+        const response = await fetch(`https://wekraft-c156ff639ea6.herokuapp.com/API/video/delete/${itemsId}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ export default function VideoTables() {
     const fetchDatas = async () =>{
      try {
       const token = localStorage.getItem('token')
-       const response = await axios.get(`https://masterkraft-bn.onrender.com/API/video/get`,{
+       const response = await axios.get(`https://wekraft-c156ff639ea6.herokuapp.com/API/video/get`,{
      headers: {
       'auth-token':token,
       'Content-Type': 'application/json',
