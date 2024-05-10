@@ -18,25 +18,23 @@ const Footer = () => {
 
    
       <div className="footer__contacts">
-        <h4>Schools</h4>
-        <p> Information</p>
-        <p>About Us</p>
-        <p>Become a Tutor</p>
-        <p>Testimonial & Review</p>
+        <h4></h4>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
       </div>
       <div className="footer__links">
         <h4> Links</h4>
         <ul>
-          <li><a href="/">Home education</a></li>
-          <li><a href="/toturial">Adult Learning</a></li>
-          <li><a href="/box">Expat students</a></li>
+
           <li><a href="/contact">Helpful Links</a></li>
         </ul>
       </div>
       <div className="footer__links">
         <h4> Links</h4>
         <ul>
-          <li><a href="/">Schools</a></li>
+          <li><a href="/"></a></li>
           <li><a href="/toturial">Staying safe online</a></li>
           
         </ul>
@@ -45,9 +43,9 @@ const Footer = () => {
       <div className="footer__resources">
         <img src={logo} alt="logo"/>
         <ul>
-          <li><a href="/faq">Kigali - Rwanda KG 02 ST, Umutuzo street</a></li>
+          <li><a href="/faq">Kigali - Norrsken House</a></li>
           <li><a href="/blog">education@wekraft.com</a></li>
-          <li><a href="/terms">+250 874 4783 38(Support)</a></li>
+          <li><a href="/terms">+250 793226785(Support)</a></li>
         </ul>
       </div>
       </div>
