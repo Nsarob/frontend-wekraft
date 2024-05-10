@@ -12,22 +12,22 @@ const Award=()=>{
             <div className="award-div">
                 <div className="award-one">
                     <img src={screenone} alt="" />
-                    <CountUp start={-0}end={768}duration={8} className="count"></CountUp>
-                    <p>TUTORIALS PUBLISHED</p>
+                    <CountUp start={-0}end={5}duration={8} className="count"></CountUp>
+                    <p>Engagement Hours</p>
                 </div>
                 <div className="award-one">
                     <img src={screentwo} alt="" />
-                    <CountUp start={-0}end={120}duration={8} className="count"></CountUp>
+                    <CountUp start={-0}end={8}duration={8} className="count"></CountUp>
                     <p>EXPERT INSTRUCTORS</p>
                 </div>
                 <div className="award-one">
                     <img src={screenthree} alt="" />
-                    <CountUp start={-0}end={8300}duration={8} className="count"></CountUp>
+                    <CountUp start={-0}end={256}duration={8} className="count"></CountUp>
                     <p>HAPPY LEARNERS</p>
                 </div>
                 <div className="award-one">
                     <img src={screenfour} alt="" />
-                    <CountUp start={-0}end={32}duration={8} className="count"></CountUp>
+                    <CountUp start={-0}end={6}duration={8} className="count"></CountUp>
                     <p>AWARDS ACHIEVED</p>
                 </div>
             </div>

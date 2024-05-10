@@ -14,7 +14,7 @@ const About=()=>{
 
     useEffect(()=>{
       const fetchProduct = async ()=>{
-         const response = await axios.get(`https://masterkraft-bn.onrender.com/API/team/get`)
+         const response = await axios.get(`https://wekraft-c156ff639ea6.herokuapp.com/API/team/get`)
          setTeam(response.data)
       };
       fetchProduct([])

@@ -20,7 +20,7 @@ and experiences with us. Your feedback matters</p>
     )}
     </div>
     <div className="sponsor">
-    <p>our amazing parterners</p>
+    <p>our amazing partners</p>
     <div className="our">
     <h1>wekraft</h1>
         <h1>jasiri</h1>

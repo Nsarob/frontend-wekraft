@@ -49,7 +49,7 @@ const Home=()=>{
                     <p className="p-four">Cultivating Lifelong Skills for a</p>
                     <p className="p-five"><span>Bright and</span> Exciting Future.</p>
                     <div className="btn">
-                        <a href="./tools" className="expo">EXPLORE THE BOX</a>
+                        <a href="./tools" className="expo">EXPLORE the toolkit</a>
                         </div>
                     
                 </div>
