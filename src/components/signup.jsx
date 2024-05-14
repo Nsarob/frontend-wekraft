@@ -17,6 +17,7 @@ const SignUp = () => {
   const [formData, setFormData] = useState({
     firstname: '',
     lastname: '',
+    dateofbirth: '',
     email: '',
     password: '',
     confirmpassword: '',
@@ -37,6 +38,7 @@ const SignUp = () => {
       const response = await axios.post(api, {
         firstname: formData.firstname,
         lastname: formData.lastname,
+        dateofbirth:formData.dateofbirth,
         email: formData.email,
         password: formData.password,
         confirmpassword: formData.confirmpassword
