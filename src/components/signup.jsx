@@ -109,7 +109,7 @@ const SignUp = () => {
             <Input />
           </Form.Item>
           <Form.Item 
-          name="Date of birth"
+          name="dateofBirth"
           label="Date Of Birth For Child"
           
           >
