@@ -17,7 +17,6 @@ const SignUp = () => {
   const [formData, setFormData] = useState({
     firstname: '',
     lastname: '',
-    dateofBirth: '',
     email: '',
     password: '',
     confirmpassword: '',
@@ -38,7 +37,6 @@ const SignUp = () => {
       const response = await axios.post(api, {
         firstname: formData.firstname,
         lastname: formData.lastname,
-        dateofBirth:formData.dateofBirth,
         email: formData.email,
         password: formData.password,
         confirmpassword: formData.confirmpassword
@@ -109,13 +107,6 @@ const SignUp = () => {
             label="LastName"
           >
             <Input />
-          </Form.Item>
-          <Form.Item 
-          name="dateofBirth"
-          label="Date Of Birth For Child"
-          
-          >
-            <Input placeholder='DD/MM/YY'/>
           </Form.Item>
           <Form.Item
             name="email"
