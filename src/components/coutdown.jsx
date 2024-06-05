@@ -5,9 +5,16 @@ const CountDown = () => {
     const [timeRemaining, setTimeRemaining] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
     useEffect(() => {
-        // Calculate the target date, which is 5 days from the current date
-        const targetDate = new Date();
-        targetDate.setDate(targetDate.getDate() + 10);
+        // Retrieve or set the target date in local storage
+        let targetDate = localStorage.getItem('targetDate');
+        if (!targetDate) {
+            const newTargetDate = new Date();
+            newTargetDate.setDate(newTargetDate.getDate() + 15);
+            targetDate = newTargetDate.toISOString();
+            localStorage.setItem('targetDate', targetDate);
+        }
+
+        targetDate = new Date(targetDate);
 
         const updateTimeRemaining = () => {
             const currentTime = new Date();
