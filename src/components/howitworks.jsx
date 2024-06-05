@@ -1,7 +1,7 @@
 import React from "react";
-import amico from "../assets/amico.png";
+import amico from "../assets/Artboard 1.png";
 import Events from "../assets/alpha.jpg";
-import screen from "../assets/Screen.png"
+import screen from "../assets/oigb_zamk_220525.jpg"
 
 const HowItWorks=()=>{
     return(
@@ -31,7 +31,7 @@ const HowItWorks=()=>{
                 </div>
                 <div className="works-bottom-center">
                 <div className="first">
-                   <h1><span>Access</span> Tutorials</h1>
+                   <h1><span>Access</span> Handbooks</h1>
                     <p>After exploring your kit, dive into tutorials
                        that match your theme. Learn step-by-step
                        with easy-to-follow lessons and videos.</p>
@@ -57,9 +57,7 @@ const HowItWorks=()=>{
                    </div>
                    <div className="last">
                     <h1><span>Create</span> and<span> Share</span></h1>
-                    <p>As you learn, create your
-                       own fantastic projects. Share
-                       your creations with family and friends.</p>
+                    <p>Visit the Learn Page and keep on having fun with learning</p>
                    </div>
                   
                 </div>
