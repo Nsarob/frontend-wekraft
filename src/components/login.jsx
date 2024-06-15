@@ -16,10 +16,15 @@ const Login = () => {
     email: '',
     password: '',
   });
-  const baseUrl = "http://localhost:3030/API/user/login"
+  console.log(window.location.href);
+
+
+  // const baseUrl = window.location.href.includes("wekraft.org")?
+  // "https://wekraft-c156ff639ea6.herokuapp.com/API/user/login":
+  // "http://localhost:3030/API/user/login";
+  const baseUrl = "https://backend-wekraft.onrender.com/API/user/login"
   const onFinish = async (values) => {
     try {
-      //const api = "https://wekraft-c156ff639ea6.herokuapp.com/API/user/login";
       const api = baseUrl
       const response = await axios.post(api, {
         email: formData.email,

@@ -33,7 +33,15 @@ const UploadProduct = () => {
     formData.append('serialNumber', upload.serialNumber);
     formData.append('productPrice', upload.productPrice);
 
-    const serverUrl = 'https://wekraft-c156ff639ea6.herokuapp.com/API/product/post';
+    // console.log(window.location.href);
+
+
+    // const serverUrl = window.location.href.includes("wekraft.org")?
+    // "https://wekraft-c156ff639ea6.herokuapp.com/API/product/post":
+    // "http://localhost:3030/API/product/post"
+  
+
+    const serverUrl = 'https://backend-wekraft.onrender.com/API/product/post';
 
     try {
       const response = await fetch(serverUrl, {
